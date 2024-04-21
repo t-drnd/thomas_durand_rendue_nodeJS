@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)),
+    url(https://images8.alphacoders.com/130/1303125.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: center;
+  font-family: "Lato";
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul li a:hover {
+  color: purple;
+  transition: 0.75s;
+}
+
+a {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Harry-Potter {
+  width: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.magie-noire {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)),
+    url(https://images5.alphacoders.com/129/1299476.png);
+  background-position: center;
+  background-size: cover;
+  font-family: "Cinzel";
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.magie-noire h1 {
+  padding: 450px 0;
+}
+
+.text-sur-image {
+  font-family: "Cinzel";
+  width: 90%;
+  color: white;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 30px;
+}
+
+.Histoire {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.Histoire h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.Histoire p {
+  font-size: 20px;
+}
+
+.fa-solid {
+  font-size: 100px;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper .btn button:hover {
+  background-color: #968e76;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0px 15px;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    font-size: 10px;
+  }
+}

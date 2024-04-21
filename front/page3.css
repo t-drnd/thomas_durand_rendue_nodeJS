@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#Harry-Potter{
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,10,30,0.7),rgba(5,10,30,0.7)),url(https://ekladata.com/3m1aAdczURtSmgkKrq1Mo6iRomM.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    font-family: "Lato";
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li a:hover{
+    color: purple;
+    transition: 0.75s;
+}
+
+a{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+main img{
+    width: 200px;
+}
+
+.Basilisk, .lutin-de-cornouaille, .mandragore, .hippogriffe, .dragon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 17px;
+}
+
+.Basilisk p, .lutin-de-cornouaille p, .mandragore p, .hippogriffe p, .dragon p{
+    font-family: "Cinzel";
+}
+
+.text-sur-image{
+    font-family: "Cinzel";
+    width: 90%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 900px){
+    nav {
+      font-size: 10px
+    }
+    main div{
+        flex-direction: column;
+    }
+  }
